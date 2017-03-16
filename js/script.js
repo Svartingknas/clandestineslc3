@@ -1,5 +1,5 @@
   function _(id){ return document.getElementById(id); }
-  (function submitForm(){
+  function submitForm(){
     _("mybtn").disabled = true;
     _("status").innerHTML = 'please wait ...';
     var formdata = new FormData();
@@ -19,4 +19,5 @@
       }
     }
     ajax.send( formdata );
-  })();
+  }
+  submitForm();
