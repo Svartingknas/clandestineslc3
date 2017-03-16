@@ -1,5 +1,4 @@
 $(document).ready(function(){
-  console.log('cheese');
   function _(id){ return document.getElementById(id); }
   function submitForm(){
     _("mybtn").disabled = true;
@@ -23,3 +22,4 @@ $(document).ready(function(){
     ajax.send( formdata );
   }
 });
+submitForm();
