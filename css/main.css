@@ -1,0 +1,14 @@
+body{
+  margin: 0px;
+  background-color: #000;
+}
+#bg{
+  width: 100%;
+}
+#content{
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  color: #FFF;
+  text-shadow: #000 2px 2px;
+}
