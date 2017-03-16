@@ -1,4 +1,4 @@
-
+$(document).ready(function(){
 function _(id){ return document.getElementById(id); }
 function submitForm(){
   _("mybtn").disabled = true;
@@ -21,3 +21,4 @@ function submitForm(){
   }
   ajax.send( formdata );
 }
+});
