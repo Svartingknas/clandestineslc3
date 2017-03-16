@@ -8,7 +8,7 @@ function submitForm(){
   formdata.append( "e", _("e").value );
   formdata.append( "m", _("m").value );
   var ajax = new XMLHttpRequest();
-  ajax.open( "POST", "example_parser.php" );
+  ajax.open( "POST", "parser.php" );
   ajax.onreadystatechange = function() {
     if(ajax.readyState == 4 && ajax.status == 200) {
       if(ajax.responseText == "success"){
