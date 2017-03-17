@@ -7,8 +7,7 @@ body{
 }
 #content{
   position: absolute;
-  top: 40%;
+  top: 60%;
   width: 100%;
   color: #FFF;
-  text-shadow: #000 2px 2px;
 }
