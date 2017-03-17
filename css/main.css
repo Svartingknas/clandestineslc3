@@ -1,5 +1,5 @@
 body{
-  margin: 0px;
+  margin: 10px;
   background-color: #000;
 }
 #bg{
@@ -10,4 +10,15 @@ body{
   top: 65%;
   width: 100%;
   color: #FFF;
+}
+/*@media screen and (min-width: 480px) {
+    #content {
+      position: absolute;
+      top: 20%;
+      width: 100%;
+    }
+}*/
+
+footer{
+  padding: 0 10%;
 }
