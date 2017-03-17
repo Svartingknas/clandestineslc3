@@ -7,14 +7,14 @@ body{
 }
 #content{
   position: absolute;
-  top: 65%;
+  top: 500px;
   width: 100%;
   color: #FFF;
 }
 /*@media screen and (min-width: 480px) {
     #content {
       position: absolute;
-      top: 20%;
+      top: 200px;
       width: 100%;
     }
 }*/
